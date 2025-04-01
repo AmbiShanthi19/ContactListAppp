@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-01T21:09:07 IST" name="Suite" finished-at="2025-04-01T21:10:03 IST" duration-ms="56306">
+    <groups>
+    </groups>
+    <test started-at="2025-04-01T21:09:07 IST" name="ChromeTest" finished-at="2025-04-01T21:09:07 IST" duration-ms="33">
+    </test> <!-- ChromeTest -->
+    <test started-at="2025-04-01T21:09:07 IST" name="Test" finished-at="2025-04-01T21:10:03 IST" duration-ms="56085">
+      <class name="test.TC_005ContactdetailsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC_005ContactdetailsTest@394df057]" started-at="2025-04-01T21:09:07 IST" name="setup" finished-at="2025-04-01T21:09:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchingBrowserandLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_005ContactdetailsTest@394df057]" started-at="2025-04-01T21:09:39 IST" name="launchingBrowserandLoadingURL" finished-at="2025-04-01T21:09:42 IST" duration-ms="3019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingBrowserandLoadingURL -->
+        <test-method signature="Contactdetailsreturn()[pri:0, instance:test.TC_005ContactdetailsTest@394df057]" started-at="2025-04-01T21:09:42 IST" name="Contactdetailsreturn" finished-at="2025-04-01T21:09:47 IST" duration-ms="5090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contactdetailsreturn -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_005ContactdetailsTest@394df057]" started-at="2025-04-01T21:09:47 IST" name="closeBrowser" finished-at="2025-04-01T21:09:48 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC_005ContactdetailsTest -->
+      <class name="test.TC_002LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC_002LoginTest@17f7cd29]" started-at="2025-04-01T21:09:07 IST" name="setup" finished-at="2025-04-01T21:09:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchingBrowserandLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_002LoginTest@17f7cd29]" started-at="2025-04-01T21:09:07 IST" name="launchingBrowserandLoadingURL" finished-at="2025-04-01T21:09:15 IST" duration-ms="7197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingBrowserandLoadingURL -->
+        <test-method signature="loginTest()[pri:0, instance:test.TC_002LoginTest@17f7cd29]" started-at="2025-04-01T21:09:15 IST" name="loginTest" finished-at="2025-04-01T21:09:15 IST" duration-ms="569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_002LoginTest@17f7cd29]" started-at="2025-04-01T21:09:15 IST" name="closeBrowser" finished-at="2025-04-01T21:09:15 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC_002LoginTest -->
+      <class name="test.TC_007Contactdetailsdeletetest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC_007Contactdetailsdeletetest@5aebe890]" started-at="2025-04-01T21:09:07 IST" name="setup" finished-at="2025-04-01T21:09:07 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchingBrowserandLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_007Contactdetailsdeletetest@5aebe890]" started-at="2025-04-01T21:09:56 IST" name="launchingBrowserandLoadingURL" finished-at="2025-04-01T21:09:59 IST" duration-ms="3107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingBrowserandLoadingURL -->
+        <test-method signature="ContactdetailsTest()[pri:0, instance:test.TC_007Contactdetailsdeletetest@5aebe890]" started-at="2025-04-01T21:09:59 IST" name="ContactdetailsTest" finished-at="2025-04-01T21:10:03 IST" duration-ms="4255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactdetailsTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_007Contactdetailsdeletetest@5aebe890]" started-at="2025-04-01T21:10:03 IST" name="closeBrowser" finished-at="2025-04-01T21:10:03 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC_007Contactdetailsdeletetest -->
+      <class name="test.TC_004Addnewcontact">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC_004Addnewcontact@71e9ddb4]" started-at="2025-04-01T21:09:07 IST" name="setup" finished-at="2025-04-01T21:09:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchingBrowserandLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_004Addnewcontact@71e9ddb4]" started-at="2025-04-01T21:09:30 IST" name="launchingBrowserandLoadingURL" finished-at="2025-04-01T21:09:33 IST" duration-ms="2847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingBrowserandLoadingURL -->
+        <test-method signature="AddContactTest()[pri:0, instance:test.TC_004Addnewcontact@71e9ddb4]" started-at="2025-04-01T21:09:33 IST" name="AddContactTest" finished-at="2025-04-01T21:09:39 IST" duration-ms="6451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddContactTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_004Addnewcontact@71e9ddb4]" started-at="2025-04-01T21:09:39 IST" name="closeBrowser" finished-at="2025-04-01T21:09:39 IST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC_004Addnewcontact -->
+      <class name="test.TC_001SignupTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC_001SignupTest@7530ad9c]" started-at="2025-04-01T21:09:07 IST" name="setup" finished-at="2025-04-01T21:09:07 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchingBrowserandLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_001SignupTest@7530ad9c]" started-at="2025-04-01T21:09:15 IST" name="launchingBrowserandLoadingURL" finished-at="2025-04-01T21:09:20 IST" duration-ms="4549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingBrowserandLoadingURL -->
+        <test-method signature="SignupTest()[pri:0, instance:test.TC_001SignupTest@7530ad9c]" started-at="2025-04-01T21:09:20 IST" name="SignupTest" finished-at="2025-04-01T21:09:24 IST" duration-ms="4530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignupTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_001SignupTest@7530ad9c]" started-at="2025-04-01T21:09:24 IST" name="closeBrowser" finished-at="2025-04-01T21:09:25 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC_001SignupTest -->
+      <class name="test.TC_003LogoutTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC_003LogoutTest@58a9760d]" started-at="2025-04-01T21:09:07 IST" name="setup" finished-at="2025-04-01T21:09:07 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchingBrowserandLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_003LogoutTest@58a9760d]" started-at="2025-04-01T21:09:25 IST" name="launchingBrowserandLoadingURL" finished-at="2025-04-01T21:09:27 IST" duration-ms="2920" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingBrowserandLoadingURL -->
+        <test-method signature="logoutTest()[pri:0, instance:test.TC_003LogoutTest@58a9760d]" started-at="2025-04-01T21:09:27 IST" name="logoutTest" finished-at="2025-04-01T21:09:30 IST" duration-ms="2227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_003LogoutTest@58a9760d]" started-at="2025-04-01T21:09:30 IST" name="closeBrowser" finished-at="2025-04-01T21:09:30 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC_003LogoutTest -->
+      <class name="test.TC_006Contactdetailsreturn">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC_006Contactdetailsreturn@4961f6af]" started-at="2025-04-01T21:09:07 IST" name="setup" finished-at="2025-04-01T21:09:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="launchingBrowserandLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:test.TC_006Contactdetailsreturn@4961f6af]" started-at="2025-04-01T21:09:48 IST" name="launchingBrowserandLoadingURL" finished-at="2025-04-01T21:09:50 IST" duration-ms="2906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://thinking-tester-contact-list.herokuapp.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingBrowserandLoadingURL -->
+        <test-method signature="ContactdetailsTest()[pri:0, instance:test.TC_006Contactdetailsreturn@4961f6af]" started-at="2025-04-01T21:09:50 IST" name="ContactdetailsTest" finished-at="2025-04-01T21:09:56 IST" duration-ms="5026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactdetailsTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TC_006Contactdetailsreturn@4961f6af]" started-at="2025-04-01T21:09:56 IST" name="closeBrowser" finished-at="2025-04-01T21:09:56 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TC_006Contactdetailsreturn -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
